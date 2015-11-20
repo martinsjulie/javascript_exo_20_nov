@@ -20,7 +20,10 @@
 
     var couleur=window.prompt('Name at least one primary color in painting:');
     if (couleur=='rouge'){
-        window.alert('Oh yeah');
+        var retour= window.alert('Oh yeah');
+        if (retour==true){
+        window.alert('Tu gères!');
+        }
     }
     else if (couleur=='bleu'){
       window.alert('Exact!');

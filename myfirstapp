@@ -8,7 +8,6 @@
   </header>
 
   <script language='javascript'>
-    windows.alert('Hello World!');
     var name=windows.prompt('What is your name'):
     windows.alert('your name is'+ name)
     </script>

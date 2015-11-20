@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"></meta>
+  </head><title>Javascript 20 nov myFirstApp</title>
+  <body>
+  <header>
+  </header>
+ <!-- -->
+
+
+
+  <script language='javascript'>
+
+    var age=window.prompt('What is your age?');
+    if (age<30){
+        window.alert('Your are '+ (30-age) + ' years before you 30');
+    }else if (age>30) {
+      window.alert('You have been 30 since' + (age-30)+' years ago');
+    }else{
+      window.alert('You are 30')
+    }
+
+  </script>
+
+  </body>
+</html>

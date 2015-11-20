@@ -12,6 +12,13 @@
     window.alert('Hello World!');
     var name=window.prompt('What is your name');
     window.alert('your name is '+ name);
+    var quest= window.prompt('What is your quet?');
+    if(quest=='to seek for the holy grail'){
+      window.alert('Good');
+    }
+    else {
+      window.alert('Aaarg!');
+    }
   </script>
 
   </body>

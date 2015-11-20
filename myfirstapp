@@ -14,7 +14,7 @@
     window.alert('your name is '+ name);
     var quest= window.prompt('What is your quet?');
     if(quest=='to seek for the holy grail'){
-      window.alert('Good');
+    window.alert('Good');
     }
     else {
       window.alert('Aaarg!');

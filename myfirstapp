@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+
+  </head><title>Javascript 20 nov myFirstApp</title>
+  <body>
+    <header>
+  </header>
+  <script language="javascript">
+    windows.alert("Hello World!");
+    </script>
+  </body>
+</html>

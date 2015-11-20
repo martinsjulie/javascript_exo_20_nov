@@ -6,18 +6,30 @@
   <body>
   <header>
   </header>
- <!--window.alert('Hello World!');-->
+ <!--window.alert('Hello World!');
+   window.alert('Hello World!');
+   var name=window.prompt('What is your name');
+   window.alert('your name is '+ name);
+   var quest= window.prompt('What is your quet?');
+   if (quest=='to seek for the holy grail'){
+   window.alert('Good');
+
+-->
 
   <script language='javascript'>
-    window.alert('Hello World!');
-    var name=window.prompt('What is your name');
-    window.alert('your name is '+ name);
-    var quest= window.prompt('What is your quet?');
-    if (quest=='to seek for the holy grail'){
-    window.alert('Good');
+
+    var couleur=window.prompt('Name at least one primary color in painting:');
+    if (couleur=='rouge'){
+        window.alert('Oh yeah');
+    }
+    else if (couleur=='bleu'){
+      window.alert('Exact!');
+    }
+      else if (couleur=='jaune'){
+        window.alert('Tu es peintre en fait?');
     }
     else {
-      window.alert('Aaarg!');
+      window.alert('Ok: picasso ne fait pas parti de ta famille!');
     }
   </script>
 
